@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explora nuestros proyectos de software, inteligencia artificial y diseño digital.">
+  <title>Portafolio | Studio Digital</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="portfolio-page">
+
+  <header class="site-header">
+    <a href="index.html" class="brand" aria-label="Ir al inicio">
+      <span class="brand-symbol">✣</span>
+      <span>STUDIO<span class="brand-light">.LAB</span></span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Abrir menú"
+      aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="portafolio.html" aria-current="page">Portafolio</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="contacto.html" class="nav-cta">Hablemos ↗</a>
+    </nav>
+  </header>
+
+  <main class="portfolio-main">
+
+    <section class="portfolio-intro">
+      <p class="eyebrow"><span class="status-dot"></span>
+        NUESTRO TRABAJO / 2026
+      </p>
+      <h1 class="portfolio-title">PORT<span>.</span>FOLIO</h1>
+      <p class="portfolio-description">
+        Ideas convertidas en productos. Tecnología diseñada
+        para generar impacto.
+      </p>
+    </section>
+
+    <section class="featured-project">
+      <div class="featured-visual">
+        <span class="project-index">FEATURED / 001</span>
+        <div class="featured-mark">✣</div>
+        <span class="featured-caption">DIGITAL SYSTEMS</span>
+      </div>
+
+      <div class="featured-info">
+        <div class="project-tags">
+          <span>Destacado</span>
+          <span>Software</span>
+        </div>
+        <h2>Digital Intelligence</h2>
+        <p>
+          Plataforma para visualizar información, automatizar procesos
+          y transformar datos en conocimiento útil.
+        </p>
+
+        <div class="featured-stats">
+          <div>
+            <strong>01</strong>
+            <span>Plataforma</span>
+          </div>
+          <div>
+            <strong>AI</strong>
+            <span>Tecnología</span>
+          </div>
+          <div>
+            <strong>∞</strong>
+            <span>Posibilidades</span>
+          </div>
+        </div>
+
+        <a href="contacto.html" class="text-link">
+          Desarrollar una idea similar <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="projects-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SELECCIÓN DE PROYECTOS</p>
+          <h2>Explora el trabajo<span>.</span></h2>
+        </div>
+        <span class="project-count" id="project-count">06 PROYECTOS</span>
+      </div>
+
+      <div class="portfolio-toolbar">
+        <div class="filter-list" role="group" aria-label="Filtrar proyectos">
+          <button class="filter-button active" data-filter="all"
+            aria-pressed="true">Todos</button>
+          <button class="filter-button" data-filter="software"
+            aria-pressed="false">Software</button>
+          <button class="filter-button" data-filter="data"
+            aria-pressed="false">Data & AI</button>
+          <button class="filter-button" data-filter="design"
+            aria-pressed="false">Diseño</button>
+        </div>
+
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input type="search" id="project-search"
+            placeholder="Buscar proyectos..."
+            aria-label="Buscar proyectos">
+        </label>
+      </div>
+
+      <div class="project-grid" id="project-grid">
+
+        <article class="project-card" data-category="software">
+          <div class="project-art art-software">
+            <span class="card-number">01</span>
+            <span class="card-symbol">{ }</span>
+            <span class="art-caption">DEVELOPMENT</span>
+          </div>
+          <div class="project-card-info">
+            <div><span class="project-category">SOFTWARE</span>
+              <h3>Core Systems</h3></div>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p class="project-summary">Arquitectura y desarrollo de aplicaciones.</p>
+        </article>
+
+        <article class="project-card" data-category="data">
+          <div class="project-art art-data">
+            <span class="card-number">02</span>
+            <div class="data-bars"><i></i><i></i><i></i><i></i><i></i></div>
+            <span class="art-caption">DATA INTELLIGENCE</span>
+          </div>
+          <div class="project-card-info">
+            <div><span class="project-category">DATA & AI</span>
+              <h3>Insight Engine</h3></div>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p class="project-summary">Analítica de datos y visualización.</p>
+        </article>
+
+        <article class="project-card" data-category="design">
+          <div class="project-art art-design">
+            <span class="card-number">03</span>
+            <div class="design-shape">◈</div>
+            <span class="art-caption">USER EXPERIENCE</span>
+          </div>
+          <div class="project-card-info">
+            <div><span class="project-category">DISEÑO</span>
+              <h3>Interface Studio</h3></div>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p class="project-summary">Interfaces digitales centradas en el usuario.</p>
+        </article>
+
+        <article class="project-card" data-category="software">
+          <div class="project-art art-automation">
+            <span class="card-number">04</span>
+            <div class="automation-symbol">⌘</div>
+            <span class="art-caption">AUTOMATION</span>
+          </div>
+          <div class="project-card-info">
+            <div><span class="project-category">SOFTWARE</span>
+              <h3>Flow Automations</h3></div>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p class="project-summary">Integración de servicios y flujos de trabajo.</p>
+        </article>
+
+        <article class="project-card" data-category="data">
+          <div class="project-art art-neural">
+            <span class="card-number">05</span>
+            <div class="neural-symbol">AI</div>
+            <span class="art-caption">MACHINE LEARNING</span>
+          </div>
+          <div class="project-card-info">
+            <div><span class="project-category">DATA & AI</span>
+              <h3>Neural Lab</h3></div>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p class="project-summary">Experimentación con modelos inteligentes.</p>
+        </article>
+
+        <article class="project-card" data-category="design">
+          <div class="project-art art-brand">
+            <span class="card-number">06</span>
+            <div class="brand-symbol-large">S.</div>
+            <span class="art-caption">BRAND EXPERIENCE</span>
+          </div>
+          <div class="project-card-info">
+            <div><span class="project-category">DISEÑO</span>
+              <h3>Identity Systems</h3></div>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p class="project-summary">Sistemas visuales e identidad digital.</p>
+        </article>
+
+      </div>
+
+      <p class="empty-results" id="empty-results" hidden>
+        No se encontraron proyectos con esos criterios.
+      </p>
+    </section>
+
+    <section class="portfolio-cta">
+      <p class="eyebrow">TU PROYECTO PUEDE SER EL SIGUIENTE</p>
+      <h2>¿Qué podemos construir juntos?</h2>
+      <a href="contacto.html" class="button button-orange">
+        Hablemos de tu proyecto ↗
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <a href="index.html" class="footer-brand">STUDIO.LAB</a>
+    <p>Ideas, sistemas y experiencias digitales.</p>
+    <span>© <span class="current-year">2026</span></span>
+  </footer>
+
+</body>
+</html>
